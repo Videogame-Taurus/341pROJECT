@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Custom Styles */
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #343a40;
+}
+
+.header {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.card {
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.btn {
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .navbar-nav .nav-link {
+    padding: 10px 20px;
+  }
+}

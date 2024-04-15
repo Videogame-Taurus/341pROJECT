@@ -1,0 +1,86 @@
+:root {
+  --pref-bg-color: #182430;
+  --pref-font-color: #53c2ac;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--pref-bg-color) !important;
+  color: var(--pref-font-color);
+}
+.preferences-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.checkbox-group {
+  margin-bottom: 15px;
+}
+.checkbox-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.checkbox-group input[type="checkbox"] {
+  margin-right: 5px;
+}
+.add-custom {
+  margin-top: 15px;
+}
+.pref-color {
+  background-color: var(--pref-font-color);
+  color: var(--pref-bg-color);
+}
+button,
+input {
+  transition: all ease-in-out 300ms;
+}
+button:hover,
+input:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  background-color: var(--pref-bg-color);
+  color: var(--pref-font-color);
+}
+.submission-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-group textarea {
+  height: 100px;
+}
+.form-group input[type="file"] {
+  margin-top: 5px;
+}
+.form-group input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-group input[type="submit"]:hover {
+  background-color: #0056b3;
+}
